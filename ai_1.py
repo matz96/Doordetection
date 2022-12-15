@@ -1,7 +1,7 @@
 import cv2
 
 # Load the input image
-img = cv2.imread("input.jpg")
+img = cv2.imread("/home/matz/SynologyDrive/FHNW/bver/CODE/bver_projekt/bver_projekt/door1_Color.png")
 
 # Convert the image to grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

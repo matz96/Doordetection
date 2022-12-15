@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Read the image and convert it to grayscale
-image = cv2.imread('image.jpg')
+image = cv2.imread('/home/matz/SynologyDrive/FHNW/bver/CODE/bver_projekt/bver_projekt/door1_Color.png')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # Use the Canny edge detector to find edges in the image

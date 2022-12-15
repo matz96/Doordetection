@@ -1,10 +1,10 @@
-«write python code who detects a door in a picture and calculate the the size of the door»
-«create additionally a output picture where the door is red framed»
+#«write python code who detects a door in a picture and calculate the the size of the door»
+#«create additionally a output picture where the door is red framed»
 
 import cv2
 
 # Read the image
-image = cv2.imread('door.jpg')
+image = cv2.imread('/home/matz/SynologyDrive/FHNW/bver/CODE/bver_projekt/bver_projekt/door1_Color.png')
 
 # Convert the image to grayscale
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
